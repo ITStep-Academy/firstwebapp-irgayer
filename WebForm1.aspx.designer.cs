@@ -33,6 +33,15 @@ namespace Simple1
         protected global::System.Web.UI.WebControls.TextBox name;
 
         /// <summary>
+        /// nickname элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox nickname;
+
+        /// <summary>
         /// message элемент управления.
         /// </summary>
         /// <remarks>
@@ -40,6 +49,15 @@ namespace Simple1
         /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label message;
+
+        /// <summary>
+        /// full элемент управления.
+        /// </summary>
+        /// <remarks>
+        /// Автоматически создаваемое поле.
+        /// Для изменения переместите объявление поля из файла конструктора в файл кода программной части.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label full;
 
         /// <summary>
         /// btn элемент управления.

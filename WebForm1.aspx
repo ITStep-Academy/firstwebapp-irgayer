@@ -12,8 +12,11 @@
         <div>
             Введите своё имя: <asp:TextBox ID="name" runat="server"></asp:TextBox>
             <br />
-            <asp:Label ID="message" runat="server" Text="Label" Visible="False"></asp:Label>
+            Кличка: <asp:TextBox ID="nickname" runat="server"></asp:TextBox>
         </div>
+        <asp:Label ID="message" runat="server" Text="Label" Visible="False"></asp:Label> <br/>
+        <asp:Label ID="full" runat="server" Text="Label" Visible="False"></asp:Label>
+        <br/>
         <asp:Button ID="btn" runat="server" OnClick="Button1_OnClick" Text="Отправить" />
     </form>
 </body>

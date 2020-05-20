@@ -20,6 +20,10 @@ namespace Simple1
         {
             message.Text = $"Добро пожаловать, {name.Text}";
             message.Visible = true;
+            name.Text += $" {nickname.Text}";
+            full.Visible = true;
+            full.Text = name.Text;
+            nickname.Text = string.Empty;
         }
     }
 }
